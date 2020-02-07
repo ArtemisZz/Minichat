@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="" />
+    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/process-register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/register-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/IAbstractDAO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/chatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/chat-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/minichat_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/minichat_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/AbstractDAO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/MinichatDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/MinichatDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gestionLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gestionLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Minichat.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Minichat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pagelogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login-page.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,8 +36,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1XMcLNMvmZ4DLdUrqFjJA07djMa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -61,7 +85,7 @@
       <workItem from="1580992308787" duration="5406000" />
       <workItem from="1581014161849" duration="855000" />
       <workItem from="1581015318603" duration="4807000" />
-      <workItem from="1581020194179" duration="3973000" />
+      <workItem from="1581020194179" duration="12047000" />
     </task>
     <servers />
   </component>
@@ -81,18 +105,26 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988@0.27.1920.988" timestamp="1581025268361" />
+    <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581027929517">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988@0.27.1920.988" timestamp="1581027929517" />
+    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2" timestamp="1581034612753">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2/0.27.1920.988@0.27.1920.988" timestamp="1581034612753" />
     <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl" timestamp="1580993768437">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1580993768437" />
-    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog" timestamp="1581025070587">
+    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog" timestamp="1581027906515">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog/0.27.1920.988@0.27.1920.988" timestamp="1581025070587" />
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581025362878">
+    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog/0.27.1920.988@0.27.1920.988" timestamp="1581027906515" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581031558637">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581025362878" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581031558637" />
     <state x="449" y="155" key="SettingsEditor" timestamp="1581020000595">
       <screen x="0" y="27" width="1920" height="988" />
     </state>

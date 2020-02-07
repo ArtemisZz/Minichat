@@ -4,13 +4,13 @@ require_once ("../connection/Connection.php");
 require_once ("../dao/MinichatDAO.php");
 
 if(isset($_POST['pseudo']) && isset($_POST['message'])){
-    $pseudo = $_POST["pseudo"];
+    $user = $_SESSION["user"];
     $message = $_POST["message"];
-    $user = new Minichat($pseudo,$message);
+    $minichat = new Minichat($user,$message);
     $connection = Connection::getInstance();
     $dao = new MinichatDAO($connection);
-    $dao->create($user);
+    $dao->create($minichat);
 
     $data = $dao->read10LastRows();
-    require_once("../views/minichat.php");
+    require("../controllers/chat-controller.php.php");
 }

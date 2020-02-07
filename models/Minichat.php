@@ -4,7 +4,7 @@
 class Minichat
 {
     private $id;
-    private $pseudo;
+    private $user;
     private $message;
 
     /**
@@ -12,9 +12,9 @@ class Minichat
      * @param $pseudo
      * @param $message
      */
-    public function __construct($pseudo, $message)
+    public function __construct($user, $message)
     {
-        $this->pseudo = $pseudo;
+        $this->user = $user;
         $this->message = $message;
     }
 
@@ -38,17 +38,17 @@ class Minichat
     /**
      * @return mixed
      */
-    public function getPseudo()
+    public function getUser()
     {
-        return $this->pseudo;
+        return $this->user;
     }
 
     /**
-     * @param mixed $pseudo
+     * @param mixed $user
      */
-    public function setPseudo($pseudo): void
+    public function setUser($user): void
     {
-        $this->pseudo = $pseudo;
+        $this->user = $user;
     }
 
     /**

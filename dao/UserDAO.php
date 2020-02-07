@@ -1,13 +1,13 @@
 <?php
+
 require_once("../connection/Connection.php");
 require_once ("../dao/IAbstractDAO.php");
-class MinichatDAO implements IAbstractDAO
+class UserDAO implements IAbstractDAO
 {
-
     private $connection = null;
 
     /**
-     * MinichatDAO constructor.
+     * UserDAO constructor.
      * @param $connection
      */
     public function __construct($connection)
@@ -18,15 +18,17 @@ class MinichatDAO implements IAbstractDAO
     public function create($obj)
     {
         try {
-            $user = $obj->getUser();
-            $id = $user->getId();
-            $message = $obj->getMessage();
-            $sql = "INSERT INTO minichat(user_id,message) VALUES ('".$id."', '".$message."')";
+            $login = $obj->getLogin();
+            $password = $obj->getPassword();
+            $sexe = $obj->getSexe();
+            $date = $obj->getBirthDay();
+            $pseudo = $obj->getNom();
+            $sql = "INSERT INTO `user`(login, password, sexe, date_naissance, nom) VALUES ('".$login."', '".$password."', '".$sexe."', '".$date."', '".$pseudo."')";
             $this->connection->exec($sql);
-
+            return true;
         }
         catch (Exception $e){
-            echo $e->getMessage();
+            return false;
         }
 
     }
@@ -34,20 +36,7 @@ class MinichatDAO implements IAbstractDAO
     public function read($id)
     {
         try {
-            $sql = "SELECT pseudo,message FROM minichat WHERE id = '".$id."'";
-            $response = $this->connection->query($sql);
-            $dr = $response->fetchAll();
-
-        }
-        catch (Exception $e){
-            echo $e->getMessage();
-        }
-    }
-
-    public function read10LastRows()
-    {
-        try {
-            $sql = "SELECT u.nom, m.message FROM minichat m, user u WHERE u.id = m.user_id ORDER BY  m.id desc limit 10";
+            $sql = "SELECT * FROM user WHERE login = '".$id."'";
             $response = $this->connection->query($sql);
             return $response->fetchAll();
         }
@@ -56,7 +45,8 @@ class MinichatDAO implements IAbstractDAO
         }
     }
 
-    public function readAll($id)
+
+    public function readAll()
     {
 
     }
