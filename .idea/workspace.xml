@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/process-register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/register-controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/IAbstractDAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/register-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tp2-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp2-php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/chatController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/chat-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auto-reload.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auto-reload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/chat-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/chat-controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/minichat_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/minichat_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/AbstractDAO.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/MinichatDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/MinichatDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/UserDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gestionLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gestionLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Minichat.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/Minichat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pagelogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/minichat.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/minichat.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,8 @@
       <workItem from="1580992308787" duration="5406000" />
       <workItem from="1581014161849" duration="855000" />
       <workItem from="1581015318603" duration="4807000" />
-      <workItem from="1581020194179" duration="12047000" />
+      <workItem from="1581020194179" duration="12171000" />
+      <workItem from="1581068314452" duration="5034000" />
     </task>
     <servers />
   </component>
@@ -129,9 +125,9 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="449" y="155" key="SettingsEditor/0.27.1920.988@0.27.1920.988" timestamp="1581020000595" />
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581020193919">
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581068315719">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581020193919" />
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581068315719" />
   </component>
 </project>

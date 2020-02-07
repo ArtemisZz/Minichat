@@ -9,6 +9,7 @@ if(isset($_POST['login']) && isset($_POST['password'])){
     $dao = new UserDAO(Connection::getInstance());
     if(($user = $dao->read($login)) != null){
         $_SESSION['user'] = $user;
+        $_SESSION['pseudo'] = $user->getNom();
     }
     else{
         require("../views/login-page.php");

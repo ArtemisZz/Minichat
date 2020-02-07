@@ -11,8 +11,10 @@
         <fieldset>
             <legend>Minichat</legend>
             <div class="form-group">
-                <label for="pseudo">Pseudo</label>
-                <input type="text" class="form-control" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+                <input type="text" class="form-control" id="login" name="login" value="<?php echo $_SESSION['user']->getLogin() ?>" hidden placeholder="login">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="pseudo" name="pseudo" value="<?php echo $_SESSION['pseudo'] ?>" hidden placeholder="Pseudo">
             </div>
             <div class="form-group">
                 <label for="message">Message</label>
@@ -25,7 +27,6 @@
     <div id="chatbox">
 
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){

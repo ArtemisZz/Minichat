@@ -13,5 +13,5 @@ foreach ($data as $index => $data_mini) {
 
 */
 for($i = sizeof($data) - 1;$i >= 0 ;$i--) {
-    echo '<p>' . $data[$i]['pseudo'] . ' : ' . $data[$i]['message'] . '</p>';
+    echo '<p>' . $data[$i]['nom'] . ' : ' . $data[$i]['message'] . '</p>';
 }

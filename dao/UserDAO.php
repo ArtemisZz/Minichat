@@ -2,6 +2,7 @@
 
 require_once("../connection/Connection.php");
 require_once ("../dao/IAbstractDAO.php");
+require_once("../models/User.php");
 class UserDAO implements IAbstractDAO
 {
     private $connection = null;
@@ -38,7 +39,8 @@ class UserDAO implements IAbstractDAO
         try {
             $sql = "SELECT * FROM user WHERE login = '".$id."'";
             $response = $this->connection->query($sql);
-            return $response->fetchAll();
+            $data =  $response->fetchAll();
+            return new User($data[0]['id'],$data[0]['login'],$data[0]['password'],$data[0]['sexe'],$data[0]['date_naissance'], $data[0]['nom']);
         }
         catch (Exception $e){
             echo $e->getMessage();

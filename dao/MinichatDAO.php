@@ -34,7 +34,7 @@ class MinichatDAO implements IAbstractDAO
     public function read($id)
     {
         try {
-            $sql = "SELECT pseudo,message FROM minichat WHERE id = '".$id."'";
+            $sql = "SELECT message FROM minichat WHERE id = '".$id."'";
             $response = $this->connection->query($sql);
             $dr = $response->fetchAll();
 
