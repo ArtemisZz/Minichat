@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/change-avatar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/upload-avatar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/avatar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/style_authent.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/change-avatar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connection/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/Connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/chat-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/chat-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/UserDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/autoload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gestionLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gestionLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/minichat.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/minichat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatar.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/minichat.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/minichat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +102,7 @@
       <workItem from="1581068314452" duration="5794000" />
       <workItem from="1581082298270" duration="2527000" />
       <workItem from="1581090500469" duration="13374000" />
-      <workItem from="1581108880643" duration="11240000" />
+      <workItem from="1581108880643" duration="11869000" />
     </task>
     <servers />
   </component>
@@ -157,10 +137,10 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="696" y="366" width="518" height="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.988@0.27.1920.988" timestamp="1581074892905" />
-    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2" timestamp="1581034612753">
+    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2" timestamp="1581121346005">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2/0.27.1920.988@0.27.1920.988" timestamp="1581034612753" />
+    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2/0.27.1920.988@0.27.1920.988" timestamp="1581121346005" />
     <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl" timestamp="1580993768437">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
