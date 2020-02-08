@@ -12,7 +12,7 @@ class Connection
     {
 // Connexion à la base de données
         try {
-            self::$connection = new PDO('mysql:host=localhost;dbname=symfony;charset=utf8', 'root', '');
+            self::$connection = new PDO('mysql:host=localhost:3306;dbname=symfony;charset=utf8', 'root', '');
             self::$connection->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
         } catch (Exception $e) {
             die('Erreur : ' . $e->getMessage());

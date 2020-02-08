@@ -19,7 +19,7 @@
 <div class="main">
     <div class="col-md-6 col-sm-12">
         <div class="login-form">
-            <form method="post" action="../controllers/index.php">
+            <form method="post" action="../router/index.php">
                 <div class="form-group">
                     <label>User Name</label>
                     <input type="text" class="form-control" name="login" placeholder="User Name">

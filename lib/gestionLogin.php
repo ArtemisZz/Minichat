@@ -1,22 +1,35 @@
 <?php
-session_name("Minichat");
-session_start();
 require_once("../dao/UserDAO.php");
 require_once("../connection/Connection.php");
-if(isset($_POST['login']) && isset($_POST['password'])){
+session_name('minichat');
+session_start();
+$user = null;
+$dao = new UserDAO(Connection::getInstance());
+if (!isset($_SESSION['user'])){ // visiteur non encore authentifié
     $login = filter_input(INPUT_POST, "login");
     $password = filter_input(INPUT_POST, "password");
-    $dao = new UserDAO(Connection::getInstance());
-    if(($user = $dao->read($login)) != null){
-        $_SESSION['user'] = $user;
-        $_SESSION['pseudo'] = $user->getNom();
+    if ($login != '' || $password != ''){
+        $user = $dao->read($login);
+        setcookie("login",$_POST["login"],time()+ (10 * 365 * 24 * 60 * 60));
     }
-    else{
+    if ($user != null) {
+        if($user->getPassword() == $password){
+            $_SESSION['user'] = $user;
+            $_SESSION['pseudo'] = $user->getNom();
+        }
+        else if(crypt($password,$user->getPassword()) == $user->getPassword()){
+            $_SESSION['user'] = $user;
+            $_SESSION['pseudo'] = $user->getNom();
+        }
+        else{
+            require("../views/login-page.php");
+            exit();
+        }
+    } else {
         require("../views/login-page.php");
         exit();
     }
 }
 else{
-    require("../views/login-page.php");
-    exit();
+
 }

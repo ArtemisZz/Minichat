@@ -4,7 +4,4 @@ spl_autoload_register(function ($className) {
 });
 
 require_once('../lib/gestionLogin.php');
-unset($_SESSION['user']);
-session_destroy();
-
-require("../views/login-page.php");
+require('../views/home-page.php');

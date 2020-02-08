@@ -20,7 +20,7 @@ class UserDAO implements IAbstractDAO
     {
         try {
             $login = $obj->getLogin();
-            $password = $obj->getPassword();
+            $password = password_hash($obj->getPassword(),CRYPT_BLOWFISH);
             $sexe = $obj->getSexe();
             $date = $obj->getBirthDay();
             $pseudo = $obj->getNom();
@@ -40,7 +40,7 @@ class UserDAO implements IAbstractDAO
             $sql = "SELECT * FROM user WHERE login = '".$id."'";
             $response = $this->connection->query($sql);
             $data =  $response->fetchAll();
-            return new User($data[0]['id'],$data[0]['login'],$data[0]['password'],$data[0]['sexe'],$data[0]['date_naissance'], $data[0]['nom']);
+            return new User($data[0]['id'],$data[0]['login'], $data[0]['password'],$data[0]['sexe'],$data[0]['date_naissance'], $data[0]['nom'], $data[0]['avatar'], $data[0]['mimetype']);
         }
         catch (Exception $e){
             echo $e->getMessage();
@@ -55,11 +55,31 @@ class UserDAO implements IAbstractDAO
 
     public function update($obj)
     {
-        // TODO: Implement update() method.
-    }
+        try {
+            $id = $obj->getId();
+            $login = $obj->getLogin();
+            $password = password_hash($obj->getPassword(),CRYPT_BLOWFISH);
+            $sex = $obj->getSexe();
+            $date = $obj->getBirthDay();
+            $pseudo = $obj->getNom();
+            $avatar = $obj->getAvatar();
+            $mime = $obj->getMimeType();
+            $sql = "UPDATE `user` SET login ='".$login."', password ='".$password."', sexe='".$sex."', date_naissance='".$date."', nom='".$pseudo."', avatar=:avatar, mimetype=:mime WHERE id='".$id."'";
+            $stmt = $this->connection->prepare($sql);
+
+            $stmt->bindParam(':mime', $mime);
+            $stmt->bindParam(':avatar', $avatar, PDO::PARAM_LOB);
+
+            return $stmt->execute();
+            return true;
+        }
+        catch (Exception $e){
+            echo $e->getMessage();
+        }    }
 
     public function delete($obj)
     {
-        // TODO: Implement delete() method.
+
     }
+
 }

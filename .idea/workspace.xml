@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tp2-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp2-php.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/change-avatar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/upload-avatar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/avatar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/style_authent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/change-avatar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/auto-reload.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auto-reload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection/Connection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/chat-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/chat-controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/minichat_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/minichat_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/MinichatDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/MinichatDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dao/UserDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gestionLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gestionLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/minichat.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/minichat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/minichat.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/minichat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +36,24 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -45,9 +72,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,10 +85,18 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/router" />
       <recent name="$PROJECT_DIR$/controllers" />
     </key>
   </component>
@@ -81,12 +119,18 @@
       <workItem from="1581014161849" duration="855000" />
       <workItem from="1581015318603" duration="4807000" />
       <workItem from="1581020194179" duration="12171000" />
-      <workItem from="1581068314452" duration="5034000" />
+      <workItem from="1581068314452" duration="5794000" />
+      <workItem from="1581082298270" duration="2527000" />
+      <workItem from="1581090500469" duration="13374000" />
+      <workItem from="1581108880643" duration="11240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="543" y="178" width="824" height="684" key="#CLI_Interpreters" timestamp="1581019999493">
@@ -97,14 +141,22 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="555" y="181" width="800" height="677" key="#SQL_Dialects/0.27.1920.988@0.27.1920.988" timestamp="1580995093484" />
-    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1581025268361">
+    <state x="555" y="181" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581099954845">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988@0.27.1920.988" timestamp="1581025268361" />
+    <state x="555" y="181" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.988@0.27.1920.988" timestamp="1581099954845" />
+    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1581111848790">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988@0.27.1920.988" timestamp="1581111848790" />
     <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581027929517">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988@0.27.1920.988" timestamp="1581027929517" />
+    <state x="696" y="366" width="518" height="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581074892905">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="696" y="366" width="518" height="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.988@0.27.1920.988" timestamp="1581074892905" />
     <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2" timestamp="1581034612753">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
@@ -117,17 +169,17 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog/0.27.1920.988@0.27.1920.988" timestamp="1581027906515" />
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581031558637">
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581115794732">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581031558637" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581115794732" />
     <state x="449" y="155" key="SettingsEditor" timestamp="1581020000595">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="449" y="155" key="SettingsEditor/0.27.1920.988@0.27.1920.988" timestamp="1581020000595" />
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581068315719">
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581108880807">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581068315719" />
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581108880807" />
   </component>
 </project>

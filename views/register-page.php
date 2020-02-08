@@ -45,7 +45,7 @@
                     </select>
                 </div>
                 <button type="submit" class="btn btn-black">Register</button>
-                <a href="../controllers/index.php"><button type="button" class="btn btn-black">Return</button></a>
+                <a href="../router/index.php"><button type="button" class="btn btn-black">Return</button></a>
             </form>
         </div>
     </div>

@@ -9,6 +9,8 @@ class User
     private $sexe;
     private $birthDay;
     private $nom;
+    private $avatar;
+    private $mimetype;
 
     /**
      * User constructor.
@@ -19,7 +21,7 @@ class User
      * @param $birthDay
      * @param $nom
      */
-    public function __construct($id,$login, $password, $sexe, $birthDay, $nom)
+    public function __construct($id,$login, $password, $sexe, $birthDay, $nom, $avatar, $mimetype)
     {
         $this->id = $id;
         $this->login = $login;
@@ -27,6 +29,8 @@ class User
         $this->sexe = $sexe;
         $this->birthDay = $birthDay;
         $this->nom = $nom;
+        $this->avatar = $avatar;
+        $this->mimetype = $mimetype;
     }
 
     /**
@@ -123,6 +127,38 @@ class User
     public function setNom($nom): void
     {
         $this->nom = $nom;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAvatar()
+    {
+        return $this->avatar;
+    }
+
+    /**
+     * @param mixed $avatar
+     */
+    public function setAvatar($avatar): void
+    {
+        $this->avatar = $avatar;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMimetype()
+    {
+        return $this->mimetype;
+    }
+
+    /**
+     * @param mixed $mimetype
+     */
+    public function setMimetype($mimetype): void
+    {
+        $this->mimetype = $mimetype;
     }
 
 
