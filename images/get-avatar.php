@@ -3,4 +3,4 @@ require_once("../lib/gestionLogin.php");
 $user = $_SESSION['user'];
 $a = $dao->read($user->getLogin());
 header("Content-Type:" . $a->getMimetype());
-print_r($a->getAvatar());
+echo $a->getAvatar();

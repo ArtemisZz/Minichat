@@ -36,11 +36,17 @@ class UserDAO implements IAbstractDAO
 
     public function read($id)
     {
+        $mimetype = null;
+        $avatar = null;
         try {
             $sql = "SELECT * FROM user WHERE login = '".$id."'";
-            $response = $this->connection->query($sql);
+            $response = $this->connection->prepare($sql);
+            $response->execute();
+            $response->execute();
+            $response->bindColumn('mimetype', $mimetype);
+            $response->bindColumn('avatar', $avatar, PDO::PARAM_LOB);
             $data =  $response->fetchAll();
-            return new User($data[0]['id'],$data[0]['login'], $data[0]['password'],$data[0]['sexe'],$data[0]['date_naissance'], $data[0]['nom'], $data[0]['avatar'], $data[0]['mimetype']);
+            return new User($data[0]['id'],$data[0]['login'], $data[0]['password'],$data[0]['sexe'],$data[0]['date_naissance'], $data[0]['nom'], $avatar, $mimetype);
         }
         catch (Exception $e){
             echo $e->getMessage();
@@ -58,7 +64,7 @@ class UserDAO implements IAbstractDAO
         try {
             $id = $obj->getId();
             $login = $obj->getLogin();
-            $password = password_hash($obj->getPassword(),CRYPT_BLOWFISH);
+            $password = $obj->getPassword();
             $sex = $obj->getSexe();
             $date = $obj->getBirthDay();
             $pseudo = $obj->getNom();

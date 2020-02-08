@@ -7,10 +7,16 @@ if (!isset($_SESSION['user'])) {  // si la page était protégée, on ne devrait
     exit();
 }
 $user = $_SESSION['user'];
-//$avatarURL = "../images/avatar_def.png";
-//$avatarURL = "data:image/jpeg;base64,". base64_encode($dao->read($user->getLogin())->getAvatar());
+$avatarURL = '';
+if($dao->read($user->getLogin())->getAvatar() != null){
+    //$avatarURL = "data:".$dao->read($user->getLogin())->getMimetype().";base64,". base64_decode($dao->read($user->getLogin())->getAvatar());
+    $avatarURL = "../images/get-avatar.php";
+}
+else{
+    $avatarURL = "../images/avatar_def.png";
+}
 
-$avatarURL = "../images/get-avatar.php?";
+
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">

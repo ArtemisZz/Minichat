@@ -12,6 +12,7 @@ class User
     private $avatar;
     private $mimetype;
 
+
     /**
      * User constructor.
      * @param $id
@@ -20,8 +21,10 @@ class User
      * @param $sexe
      * @param $birthDay
      * @param $nom
+     * @param $avatar
+     * @param $mimetype
      */
-    public function __construct($id,$login, $password, $sexe, $birthDay, $nom, $avatar, $mimetype)
+    public function __construct($id,$login, $password, $sexe, $birthDay, $nom, $avatar="", $mimetype="")
     {
         $this->id = $id;
         $this->login = $login;

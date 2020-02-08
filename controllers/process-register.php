@@ -8,10 +8,10 @@ if(isset($_POST['login']) && isset($_POST['password'])){
     $pseudo = filter_input(INPUT_POST,"pseudo");
     $sex = $_POST['sexe'];
     $date = $_POST['birthday'];
-    $user = new User($login,$password,$sex,$date,$pseudo);
+    $user = new User(0,$login,$password,$sex,$date,$pseudo,null,null);
     $dao = new UserDAO(Connection::getInstance());
     if($dao->create($user) == true){
-        require("../controllers/index.php");
+        require("../router/index.php");
     }
     else{
         require("../controllers/register-controller.php");
