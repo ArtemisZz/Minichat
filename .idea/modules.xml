@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/tp2-php.iml" filepath="$PROJECT_DIR$/.idea/tp2-php.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../tp3-php/.idea/tp3-php-poo.iml" filepath="$PROJECT_DIR$/../tp3-php/.idea/tp3-php-poo.iml" />
     </modules>
   </component>
 </project>

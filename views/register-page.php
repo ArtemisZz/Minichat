@@ -19,7 +19,7 @@
 <div class="main">
     <div class="col-md-6 col-sm-12">
         <div class="login-form">
-            <form method="post" action="../controllers/process-register.php">
+            <form method="post" action="../lib/process-register.php">
                 <div class="form-group">
                     <label>User Name</label>
                     <input type="text" class="form-control" name="login" placeholder="User Name">
@@ -45,7 +45,7 @@
                     </select>
                 </div>
                 <button type="submit" class="btn btn-black">Register</button>
-                <a href="../router/index.php"><button type="button" class="btn btn-black">Return</button></a>
+                <a href="../controllers/chat-controller.php"><button type="button" class="btn btn-black">Return</button></a>
             </form>
         </div>
     </div>

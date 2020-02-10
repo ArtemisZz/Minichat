@@ -2,10 +2,9 @@
     position: relative;
     text-align:left;
     margin:0 auto;
-    margin-bottom:25px;
     padding:10px;
     background:#fff;
-    height:400px;
+    height:320px;
     width:100%;
     border:1px solid #ACD8F0;
     overflow:auto;
@@ -13,7 +12,7 @@
 }
 
 #chatblock{
-    max-height: 40em;
+    max-height: 60em;
     width: 25em;
     position: fixed;
     bottom: 0px;
@@ -23,7 +22,7 @@
 
 .chatname{
     width: 100%;
-    height: 2em;
+    height: 3em;
     background-color: blueviolet;
 }
 

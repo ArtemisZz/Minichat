@@ -3,7 +3,7 @@ $(document).ready(function () {
     function getData() {
         $.ajax({
             type: 'POST',
-            url: '../controllers/auto-reload.php',
+            url: '../lib/auto-reload.php',
             success: function (data) {
                 $('#chatbox').html(data);
             }

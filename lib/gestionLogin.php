@@ -23,9 +23,6 @@ if (!isset($_SESSION['user'])){ // visiteur non encore authentifié
         }
         else{
             require("../views/login-page.php");
-            //echo $password;
-            //echo $user->getPassword();
-            //echo crypt($password,$user->getPassword()) != $user->getPassword();
             exit();
         }
     } else {

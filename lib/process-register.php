@@ -1,6 +1,6 @@
 <?php
 require_once("../dao/UserDAO.php");
-require_once ("../models/User.php");
+require_once("../models/User.php");
 require_once("../connection/Connection.php");
 if(isset($_POST['login']) && isset($_POST['password'])){
     $login = filter_input(INPUT_POST, "login");
@@ -11,7 +11,7 @@ if(isset($_POST['login']) && isset($_POST['password'])){
     $user = new User(0,$login,$password,$sex,$date,$pseudo,null,null);
     $dao = new UserDAO(Connection::getInstance());
     if($dao->create($user) == true){
-        require("../router/index.php");
+        require("../controllers/chat-controller.php");
     }
     else{
         require("../controllers/register-controller.php");

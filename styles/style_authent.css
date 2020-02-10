@@ -51,3 +51,10 @@ footer{
     bottom: 0;
     margin: auto;
 }
+
+.chatimage{
+    height: 100%;
+    width: 45px;
+    border: solid #eeeeee 2px;
+    border-radius: 50%;
+}

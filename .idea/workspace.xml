@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
+    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="Refactor">
+      <change afterPath="$PROJECT_DIR$/controllers/cartocarbu-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/projects-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/cartocarbu-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/commentaires.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/portfolio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/projects-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/tp2-php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tp2-php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/process-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/process-register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/UserDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/get-avatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/images/get-avatar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auto-reload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/chat-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/chat-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/process-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/process-register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/upload-avatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/upload-avatar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gestionLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gestionLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/home-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/minichat.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/minichat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style_authent.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style_authent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/views/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home-page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/minichat.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/minichat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register-page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +94,17 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/sql" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/router" />
-      <recent name="$PROJECT_DIR$/controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -114,6 +134,13 @@
       <workItem from="1581165241997" duration="700000" />
       <workItem from="1581166461917" duration="601000" />
       <workItem from="1581184292166" duration="3000" />
+      <workItem from="1581184947599" duration="4507000" />
+      <workItem from="1581206122970" duration="776000" />
+      <workItem from="1581258432721" duration="1233000" />
+      <workItem from="1581265228519" duration="22000" />
+      <workItem from="1581265304197" duration="71000" />
+      <workItem from="1581265835935" duration="115000" />
+      <workItem from="1581339580433" duration="4318000" />
     </task>
     <servers />
   </component>
@@ -122,6 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="543" y="178" width="824" height="684" key="#CLI_Interpreters" timestamp="1581019999493">
@@ -148,29 +177,29 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="696" y="366" width="518" height="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.988@0.27.1920.988" timestamp="1581074892905" />
-    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2" timestamp="1581121346005">
+    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2" timestamp="1581346148361">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2/0.27.1920.988@0.27.1920.988" timestamp="1581121346005" />
+    <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2/0.27.1920.988@0.27.1920.988" timestamp="1581346148361" />
     <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl" timestamp="1580993768437">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1580993768437" />
-    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog" timestamp="1581156198263">
+    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog" timestamp="1581206629107">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog/0.27.1920.988@0.27.1920.988" timestamp="1581156198263" />
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581115794732">
+    <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog/0.27.1920.988@0.27.1920.988" timestamp="1581206629107" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581340485886">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581115794732" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581340485886" />
     <state x="449" y="155" key="SettingsEditor" timestamp="1581020000595">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="449" y="155" key="SettingsEditor/0.27.1920.988@0.27.1920.988" timestamp="1581020000595" />
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581184292420">
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581339583290">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581184292420" />
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581339583290" />
   </component>
 </project>
