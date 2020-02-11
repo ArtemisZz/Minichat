@@ -13,7 +13,7 @@ class Station
     private string $ville;
     private $nom;
     private $marque;
-    private Prix $prix;
+    private  $prix;
     private $services;
 
     /**
@@ -178,7 +178,7 @@ class Station
     /**
      * @return string
      */
-    public function getNom(): string
+    public function getNom()
     {
         return $this->nom;
     }
@@ -186,7 +186,7 @@ class Station
     /**
      * @param string $nom
      */
-    public function setNom(string $nom): void
+    public function setNom($nom): void
     {
         $this->nom = $nom;
     }
@@ -210,7 +210,7 @@ class Station
     /**
      * @return Prix
      */
-    public function getPrix(): Prix
+    public function getPrix()
     {
         return $this->prix;
     }
@@ -218,7 +218,7 @@ class Station
     /**
      * @param Prix $prix
      */
-    public function setPrix(Prix $prix): void
+    public function setPrix($prix): void
     {
         $this->prix = $prix;
     }

@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+#carteCampus {
+    width : 100%;
+    height : 100%;
+}
+
+.info{
+    background-color: #CA1F7B;
+    width: 400px;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000;
+    display: none;
+    color: #eeeeee;
+    border: #eeeeee double 5px;
+}
+
+body{
+    font-family: Lato;
+
+}
+
+h3{
+    margin: 1em;
+}
+
+
+.close-button{
+    width: 100%;
+    height: 50px;
+    font-family: Lato;
+    font-size: larger;
+    color: #CA1F7B;
+}
+
+table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}

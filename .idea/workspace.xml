@@ -1,13 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="" />
+    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHPMailer/COMMITMENT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/get_oauth_token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-am.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-az.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ba.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-be.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-bg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-cs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-de.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-el.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-eo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-es.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-fr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-gl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-he.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-hi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-hr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-hu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-id.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-it.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ko.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-lt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-lv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-mg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-nb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-nl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-pt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-ru.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-sk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-sl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-sr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-sv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-tl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-tr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-uk.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-vi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-zh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/language/phpmailer.lang-zh_cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/src/SMTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/reset-password-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/map.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/reset-password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/cartocarbu-controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/cartocarbu-controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scriptCarte.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scriptCarte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/process-cartocarbu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/process-cartocarbu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/Station.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/Station.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/cartocarbu-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/cartocarbu-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pagelogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pagelogin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/cartocarbu-map.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/cartocarbu-map.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/login-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/login-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/register-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/register-page.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -29,8 +98,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -53,7 +122,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp3-php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -115,6 +184,8 @@
       <workItem from="1581265835935" duration="115000" />
       <workItem from="1581339580433" duration="21286000" />
       <workItem from="1581369894619" duration="8196000" />
+      <workItem from="1581415600266" duration="32534000" />
+      <workItem from="1581456784380" duration="609000" />
     </task>
     <servers />
   </component>
@@ -139,14 +210,14 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="555" y="181" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.988@0.27.1920.988" timestamp="1581099954845" />
-    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1581373932649">
+    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1581418286159">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988@0.27.1920.988" timestamp="1581373932649" />
-    <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581027929517">
+    <state x="734" y="239" width="441" height="562" key="#com.intellij.ide.util.MemberChooser/0.27.1920.988@0.27.1920.988" timestamp="1581418286159" />
+    <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581436395766">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988@0.27.1920.988" timestamp="1581027929517" />
+    <state x="693" y="269" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.988@0.27.1920.988" timestamp="1581436395766" />
     <state x="696" y="366" width="518" height="307" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1581074892905">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
@@ -155,25 +226,33 @@
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="496" y="116" width="918" height="807" key="CommitChangelistDialog2/0.27.1920.988@0.27.1920.988" timestamp="1581346148361" />
-    <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl" timestamp="1580993768437">
+    <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl" timestamp="1581422909643">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1580993768437" />
+    <state x="704" y="263" width="501" height="513" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1581422909643" />
     <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog" timestamp="1581354026164">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="638" y="333" width="673" height="373" key="NewPhpClassDialog/0.27.1920.988@0.27.1920.988" timestamp="1581354026164" />
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581378203756">
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog" timestamp="1581418816869">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581378203756" />
+    <state x="755" y="445" width="399" height="149" key="NewPhpFileDialog/0.27.1920.988@0.27.1920.988" timestamp="1581418816869" />
     <state x="449" y="155" key="SettingsEditor" timestamp="1581020000595">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
     <state x="449" y="155" key="SettingsEditor/0.27.1920.988@0.27.1920.988" timestamp="1581020000595" />
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581369893229">
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1581456792448">
       <screen x="0" y="27" width="1920" height="988" />
     </state>
-    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581369893229" />
+    <state x="616" y="347" key="com.intellij.ide.util.TipDialog/0.27.1920.988@0.27.1920.988" timestamp="1581456792448" />
+    <state x="624" y="237" key="run.anything.popup" timestamp="1581456075345">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="624" y="237" key="run.anything.popup/0.27.1920.988@0.27.1920.988" timestamp="1581456075345" />
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1581417609644">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup/0.27.1920.988@0.27.1920.988" timestamp="1581417609644" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 <?php
 spl_autoload_register(function ($className) {
-    include ("lib/{$className}.class.php");
+    include ("../model/{$className}.php");
 });
 
 require("../view/portfolio.php");

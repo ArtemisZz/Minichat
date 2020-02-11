@@ -3,14 +3,15 @@
 
 class User
 {
-    private $id;
-    private $login;
-    private $password;
+    private int $id;
+    private string $login;
+    private string $password;
     private $sexe;
     private $birthDay;
-    private $nom;
+    private string $nom;
     private $avatar;
     private $mimetype;
+    private string $email;
 
 
     /**
@@ -24,7 +25,7 @@ class User
      * @param $avatar
      * @param $mimetype
      */
-    public function __construct($id,$login, $password, $sexe, $birthDay, $nom, $avatar="", $mimetype="")
+    public function __construct($id,$login, $password, $sexe, $birthDay, $nom, $avatar="", $mimetype="",$email = "")
     {
         $this->id = $id;
         $this->login = $login;
@@ -34,6 +35,24 @@ class User
         $this->nom = $nom;
         $this->avatar = $avatar;
         $this->mimetype = $mimetype;
+        $this->email = $email;
+    }
+
+    public function construct(array $donness){
+        $this->hydrate($donness);
+    }
+
+    public function hydrate(array $donnees)
+    {
+        foreach ($donnees as $key => $value)
+        {
+            $method = 'set'.ucfirst($key);
+
+            if (method_exists($this, $method))
+            {
+                $this->$method($value);
+            }
+        }
     }
 
     /**
@@ -162,6 +181,22 @@ class User
     public function setMimetype($mimetype): void
     {
         $this->mimetype = $mimetype;
+    }
+
+    /**
+     * @return string
+     */
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
+
+    /**
+     * @param string $email
+     */
+    public function setEmail(string $email): void
+    {
+        $this->email = $email;
     }
 
 

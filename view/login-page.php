@@ -29,7 +29,9 @@
                     <input type="password" class="form-control" name="password" placeholder="Password">
                 </div>
                 <button type="submit" class="btn btn-black">Login</button>
-                <a href="../controller/register-controller.php"><button type="button" class="btn btn-secondary">Register</button></a>
+                <a href="../controller/register-controller.php"><button type="button" class="btn btn-secondary">Sign up</button></a>
+                <br><br>
+                <a href="../view/reset-password.php" id="forgot">Forgot something?</a>
             </form>
         </div>
     </div>

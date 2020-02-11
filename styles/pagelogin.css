@@ -73,3 +73,7 @@ body {
     background-color: #000 !important;
     color: #fff;
 }
+
+#forgot:hover{
+    color: #CA1F7B;
+}
