@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/cartocarbu-controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/chat-controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/projects-controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/register-controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/scriptCarte.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/process-cartocarbu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Minichat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/Station.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/cartocarbu-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/cartocarbu-form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/cartocarbu-map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/commentaires.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/login-page.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/minichat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/nav-template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/portfolio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/register-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/cartocarbu-controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/change-avatar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/chat-controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/logout.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/minichat_post.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/projects-controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/register-controller.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/upload-avatar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/UserDAO.php" beforeDir="false" afterPath="$PROJECT_DIR$/dao/UserDAO.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/auto-reload.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auto-reload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gestionLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gestionLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/process-register.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/process-register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Minichat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/router/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/blog.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cartocarbu-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/change-avatar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/commentaires.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/minichat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/portfolio.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/projects-page.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/register-page.php" beforeDir="false" />
-    </list>
+    <list default="true" id="68c4516a-ddb8-4b10-8f5d-a766c06e8404" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +114,7 @@
       <workItem from="1581265304197" duration="71000" />
       <workItem from="1581265835935" duration="115000" />
       <workItem from="1581339580433" duration="21286000" />
-      <workItem from="1581369894619" duration="7411000" />
+      <workItem from="1581369894619" duration="7796000" />
     </task>
     <servers />
   </component>
