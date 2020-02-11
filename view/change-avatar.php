@@ -11,7 +11,7 @@
 </head>
 <body>
 <h1></h1>
-<form name="upload_image" action="../controllers/upload-avatar.php" method = "post" enctype="multipart/form-data">
+<form name="upload_image" action="../controller/upload-avatar.php" method = "post" enctype="multipart/form-data">
     <fieldset>
         <legend>New avatar</legend>
         <input type="file" name="avatar" required="required"/>

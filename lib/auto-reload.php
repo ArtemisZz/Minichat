@@ -1,5 +1,5 @@
 <?php
-require_once("../models/Minichat.php");
+require_once("../model/Minichat.php");
 require_once("../connection/Connection.php");
 require_once("../dao/MinichatDAO.php");
 $connection = Connection::getInstance();

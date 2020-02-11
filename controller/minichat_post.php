@@ -1,7 +1,7 @@
 <?php
 session_name('minichat');
 session_start();
-require_once("../models/Minichat.php");
+require_once("../model/Minichat.php");
 require_once ("../connection/Connection.php");
 require_once ("../dao/MinichatDAO.php");
 require_once ("../dao/UserDAO.php");
@@ -16,5 +16,5 @@ if(isset($_POST['message'])){
     $connection = Connection::getInstance();
     $dao = new MinichatDAO($connection);
     $dao->create($minichat);
-    require('../controllers/chat-controller.php');
+    require('../controller/chat-controller.php');
 }

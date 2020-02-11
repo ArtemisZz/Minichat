@@ -22,11 +22,11 @@ if (!isset($_SESSION['user'])){ // visiteur non encore authentifié
             $_SESSION['pseudo'] = $user->getNom();
         }
         else{
-            require("../views/login-page.php");
+            require("../view/login-page.php");
             exit();
         }
     } else {
-        require("../views/login-page.php");
+        require("../view/login-page.php");
         exit();
     }
 }

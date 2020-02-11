@@ -3,7 +3,7 @@
   Utilise le contenu de $_SESSION (en particulier $_SESSION['ident'])
 */
 if (!isset($_SESSION['user'])) {  // si la page était protégée, on ne devrait même pas faire ce test
-    require('../views/login-page.php');
+    require('../view/login-page.php');
     exit();
 }
 $user = $_SESSION['user'];
@@ -62,8 +62,8 @@ if ($dao->read($user->getLogin())->getAvatar() != null) {
     </form>
 </div>
 <footer>
-    <a href="../controllers/logout.php">Disconnect</a>
-    <a href="../controllers/change-avatar.php">Changer d'avatar</a>
+    <a href="../controller/logout.php">Disconnect</a>
+    <a href="../controller/change-avatar.php">Changer d'avatar</a>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="../js/autoload.js"></script>

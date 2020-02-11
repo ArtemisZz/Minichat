@@ -8,4 +8,4 @@ if($avatar !== null){
     $dao->update($user);
 }
 
-require("../controllers/chat-controller.php");
+require("../controller/chat-controller.php");

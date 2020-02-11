@@ -9,7 +9,7 @@
 
 <body>
 <h1>Mon super blog !</h1>
-<p><a href="../views/blog.php">Retour à la liste des billets</a></p>
+<p><a href="/blog.php">Retour à la liste des billets</a></p>
 
 <?php
 // Connexion à la base de données

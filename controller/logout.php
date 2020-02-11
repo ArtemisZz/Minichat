@@ -7,4 +7,4 @@ require_once('../lib/gestionLogin.php');
 unset($_SESSION['user']);
 session_destroy();
 
-require("../views/login-page.php");
+require("../view/login-page.php");

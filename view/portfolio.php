@@ -5,47 +5,23 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet"
           href="../styles/portfolio.css" />
-    <link rel="stylesheet"
-          href="https://bootswatch.com/4/superhero/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Menu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarColor02" aria-controls="navbarColor02"
-                aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="../router/index.php">Home
-                        <span class="sr-only">(current)</span>
-                    </a></li>
-                <li class="nav-item"><a class="nav-link" href="../controllers/projects-controller.php">Features</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text"
-                       placeholder="Search">
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+    <?php
+        require("../view/nav-template.php");
+    ?>
 </header>
 <section id="welcome-section" class="welcome-section">
     <h1>Bonjour je suis Minh Quan Nguyen.</h1>
     <div id="introduction">
         <h3>
-            <em>Je suis étudiant de licence 3 en Informatique de
-                l'Université de Lille. Ce site c'est pour jouir et multi-education</em>
+            <em>A web developer</em>
         </h3>
     </div>
 </section>
+
 <footer>
     <section id="contact" class="contact-section">
         <div>

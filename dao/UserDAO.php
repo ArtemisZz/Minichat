@@ -2,7 +2,7 @@
 
 require_once("../connection/Connection.php");
 require_once ("../dao/IAbstractDAO.php");
-require_once("../models/User.php");
+require_once("../model/User.php");
 class UserDAO implements IAbstractDAO
 {
     private $connection = null;
